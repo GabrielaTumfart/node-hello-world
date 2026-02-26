@@ -10,4 +10,9 @@ console.log(process.argv);
 ]*/
 
 const nome = process.argv[2];
-console.log("Hello" + " " + nome);
+
+if (nome) {
+  console.log("Hello" + " " + nome);
+} else {
+  console.log("Hello Stregone!");
+}
