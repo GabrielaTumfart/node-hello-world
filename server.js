@@ -9,10 +9,12 @@ console.log(process.argv);
    'Boolean' 3
 ]*/
 
-const nome = process.argv[2];
+/*const nome = process.argv[2];
 
 if (nome) {
   console.log("Hello" + " " + nome);
 } else {
   console.log("Hello Stregone!");
-}
+}*/
+
+const nome = process.argv[2] ? process.argv[2] : "Stregone";
